@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Letter Transformation",
+  "version": "1.0",
+  "description": "Transform letters on web pages",
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
