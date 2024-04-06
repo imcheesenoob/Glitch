@@ -3,8 +3,13 @@
   "name": "Glitch Letters",
   "version": "1.0",
   "description": "Changes the font",
-  "permissions": ["activeTab"],
-  "background": {
+  "permissions": [
+    "activeTab",
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking",
+    "*://*/*"],
+    "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
