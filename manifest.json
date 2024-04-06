@@ -4,7 +4,6 @@
   "version": "1.0",
   "description": "Changes the font",
   "permissions": ["activeTab"],
-  },
   "background": {
     "service_worker": "background.js"
   },
