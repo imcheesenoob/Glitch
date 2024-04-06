@@ -1,9 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "Letter Transformation",
+  "name": "Glitch Letters",
   "version": "1.0",
-  "description": "Transform letters on web pages",
+  "description": "Changes the font",
   "permissions": ["activeTab"],
+  "icons": {
+    "128": "https://www.i2symbol.com/images/text-symbols/a-symbol.png"
+  },
   "background": {
     "service_worker": "background.js"
   },
